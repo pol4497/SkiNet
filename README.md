@@ -1,4 +1,3 @@
 # SkiNet
 
-This project is from a course on Udemy. It is for personal educational purposes 
-which might come handy for future professional purposes as well.
+This project is from a course on Udemy. I am using .Net Core in order to build an e-commerce application.
