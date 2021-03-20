@@ -1,3 +1,3 @@
-# SkiNet
+# E-Commerce app with .Net Core and Angular
+Udemy Course from Neil Cummings.
 
-This project is from a course on Udemy. I am using .Net Core in order to build an e-commerce application.
