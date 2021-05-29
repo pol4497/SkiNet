@@ -40,6 +40,9 @@ namespace API
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             app.UseMiddleware<ExceptionMiddleware>();
+
+            app.UseSwaggerDocumentation();
+
             app.UseStatusCodePagesWithReExecute("/errors/{0}");
 
             app.UseHttpsRedirection();
@@ -50,8 +53,6 @@ namespace API
             app.UseCors("CorsPolicy");
 
             app.UseAuthorization();
-
-            app.UseSwaggerDocumentation();
 
             app.UseEndpoints(endpoints =>
             {
